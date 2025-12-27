@@ -31,7 +31,7 @@ function App() {
 
   return (
     <ThemeProvider>
-      <div className="min-h-screen bg-primary font-poppins text-text-primary">
+      <div className="app-container">
         <Sidebar activePage={activePage} onPageChange={setActivePage} />
         <ThemeControls />
         <main className="main-content">

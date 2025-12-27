@@ -62,6 +62,13 @@ body {
   transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
 }
 
+.app-container {
+  min-height: 100vh;
+  background-color: var(--primary-bg);
+  color: var(--text-primary);
+  transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
+}
+
 /* ========================================
    Sidebar Styles
 ======================================== */
@@ -165,6 +172,8 @@ body {
   min-height: 100vh;
   padding: 40px 60px;
   position: relative;
+  background-color: var(--primary-bg);
+  transition: background-color var(--transition-speed) ease;
 }
 
 /* ========================================
